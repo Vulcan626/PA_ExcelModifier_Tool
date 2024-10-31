@@ -4,7 +4,10 @@
 
 **Developer**: Vulcan626
 
-[TOC]
+
+---
+
+**[English Version](#application-overview)** | **[中文说明](#应用概述)**
 
 ---
 
