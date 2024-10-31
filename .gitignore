@@ -1,3 +1,8 @@
 
 .DS_Store
 /MacOS/pa_tool_env
+/.history
+/build
+/dist
+/pa_tool_env
+/Asset
