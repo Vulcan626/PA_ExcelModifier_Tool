@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['MacOS/excel_modifier_tool.py'],
+    ['main/excel_modifier_tool.py'],
     pathex=['/path/to/PA_EXCELMODIFIER_TOOL'],  # 项目根目录路径
     binaries=[],
-    datas=[('Asset/icon/myicon.icns', 'icon/myicon.icns')],  # 图标文件
+    datas=[('Asset/icon/myicon.ico', 'icon/myicon.ico')],  # 图标文件
     hiddenimports=['pandas', 'openpyxl'],  # 添加动态导入的模块
     hookspath=[],
     hooksconfig={},
@@ -40,7 +40,7 @@ exe = EXE(
 app = BUNDLE(
     exe,
     name='ProctorAsst_ExcelModifier.app',
-    icon='Asset/icon/myicon.icns',
+    icon='Asset/icon/myicon.ico',
     bundle_identifier="vulcan626@foxmail.com",  # 唯一的标识符
     info_plist={
         'NSPrincipalClass': 'NSApplication',
